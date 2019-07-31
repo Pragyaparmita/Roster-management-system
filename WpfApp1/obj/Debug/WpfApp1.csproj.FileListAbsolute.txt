@@ -1,0 +1,314 @@
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WPFtrial\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\CourseDisplay.g.cs
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\CourseDisplay.baml
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\KB3\Downloads\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\CourseDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\CourseDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WPFtrial-20180717T022624Z-001\WPFtrial\WPFtrial\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\KB3\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1-20180723T034116Z-001\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\User\Documents\Codes\CSharp\GenAlgoWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\KB3\Desktop\new\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\suggestion.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\suggestion.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\displayControl.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\displayControl.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\displayControl.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\suggestion.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\displayControl.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\suggestion.baml
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\KB3\Desktop\neema\WpfApp1 (pragya's code not added)\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\suggestion.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\DataGridDetail.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\displayControl.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\suggestion.baml
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\krimesh\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\suggestion.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\compactUserDetail.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\HomePageDetail.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\HomeScheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\scheduleDisplay.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\scheduleHeader.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\suggestion.baml
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.manifest
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\bin\Debug\WpfApp1.application
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe.manifest
+C:\Users\User\Documents\Codes\CSharp\WpfApp1\WpfApp1\obj\Debug\WpfApp1.application

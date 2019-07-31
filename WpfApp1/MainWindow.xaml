@@ -1,0 +1,997 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Roster Management" Height="450" Width="800" WindowState="Maximized">
+
+    <Grid Name="ParentGrid" ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Background="#FF85BAED">
+            <Grid Name="CompactView">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="9*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0">
+                    <Button Name="HomeLogo" Click="HomeLogo_Click" BorderThickness="0">
+                        <Button.Background>
+                            <ImageBrush/>
+                        </Button.Background>
+                        <StackPanel>
+                            <TextBlock Text="Roster" FontSize="30" FontWeight="Bold" FontFamily="Old English Text MT"/>
+                            <TextBlock Text="Management" FontSize="30" FontWeight="Bold" FontFamily="Old English Text MT"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+
+                <TabControl Grid.Row="1" Margin="10,40,10,10" HorizontalAlignment="Center">
+                    <TabItem Header="Online">
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                            <ItemsControl Name="HomeEmployeeDetail">
+                                
+                            </ItemsControl>
+                        </ScrollViewer>
+                    </TabItem>
+                </TabControl>
+                    
+
+                <Grid Grid.Row="2"  Background="#FF59A6F1">
+                    <StackPanel HorizontalAlignment="Center" Grid.Row="2" Orientation="Horizontal" Margin="2">
+
+                        <Button BorderThickness="0" Background="Transparent" Name="HomeIconBtn" Margin="5,0,5,0" Height="30" Width="60" Click="HomeIconBtn_Click">
+                            <Button.Resources>
+                                <DataTemplate x:Key="Unpressed">
+                                    <Image Source="/home_sign.png"/>
+                                </DataTemplate>
+
+
+                                <DataTemplate x:Key="Pressed">
+                                    <Image Source="/home_sign_pressed.png"/>
+                                </DataTemplate>
+                            </Button.Resources>
+
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="ContentTemplate" Value="{StaticResource Unpressed}"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="ContentTemplate" Value="{StaticResource Pressed}"></Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button BorderThickness="0" Background="Transparent" Name="AddIconBtn" Margin="5,0,5,0" Height="30" Width="60" Click="AddIconBtn_Click">
+                            <!--<Button.Template>
+                                <ControlTemplate>
+                                    <Image Source="/add_sign.png"/>
+                                </ControlTemplate>
+                            </Button.Template>
+                        -->
+                            <Button.Resources>
+                                <DataTemplate x:Key="Unpressed">
+                                    <Image Source="/add_sign.png"/>
+                                </DataTemplate>
+
+
+                                <DataTemplate x:Key="Pressed">
+                                    <Image Source="/add_sign_pressed.png"/>
+                                </DataTemplate>
+                            </Button.Resources>
+
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="ContentTemplate" Value="{StaticResource Unpressed}"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="ContentTemplate" Value="{StaticResource Pressed}"></Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button BorderThickness="0" Background="Transparent" Name="EditIconBtn" Margin="5,0,5,0" Height="30" Width="60" Click="EditIconBtn_Click">
+                            <Button.Resources>
+                                <DataTemplate x:Key="Unpressed">
+                                    <Image Source="/edit_sign.png"/>
+                                </DataTemplate>
+
+
+                                <DataTemplate x:Key="Pressed">
+                                    <Image Source="/edit_sign_pressed.png"/>
+                                </DataTemplate>
+                            </Button.Resources>
+
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="ContentTemplate" Value="{StaticResource Unpressed}"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="ContentTemplate" Value="{StaticResource Pressed}"></Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+
+                        <Button BorderThickness="0" Background="Transparent" Name="DeleteIconBtn" Margin="5,0,5,0" Height="30" Width="60" Click="DeleteIconBtn_Click">
+                            <Button.Resources>
+                                <DataTemplate x:Key="Unpressed">
+                                    <Image Source="/delete_sign.png"/>
+                                </DataTemplate>
+
+
+                                <DataTemplate x:Key="Pressed">
+                                    <Image Source="/delete_sign_pressed.png"/>
+                                </DataTemplate>
+                            </Button.Resources>
+
+
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="ContentTemplate" Value="{StaticResource Unpressed}"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter Property="ContentTemplate" Value="{StaticResource Pressed}"></Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+
+        </DockPanel>
+
+        <ScrollViewer Grid.Column="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <TabControl Name="MainMenu" TabStripPlacement="Top"  BorderThickness="2" Margin="4.6,10,14.6,10" Padding="20" Background="GhostWhite">
+                <TabControl.Resources>
+                    <Style TargetType="TabItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="TabItem">
+                                    <Grid Name="Panel">
+                                        <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Margin="10,2"/>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter TargetName="Panel" Property="Background" Value="LightSkyBlue" />
+                                        </Trigger>
+                                        <Trigger Property="IsSelected" Value="False">
+                                            <Setter TargetName="Panel" Property="Background"  Value="#FF85BAED" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </TabControl.Resources>
+
+                <TabItem Visibility="Visible" Name="homeTab" Height="30" Width="100">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FFDD2A2A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/home_sign.png" Height="16"/>
+                            <TextBlock Text="Home" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <StackPanel Orientation="Vertical">
+                        <Calendar HorizontalAlignment="Left" Margin="280 0 0 40" >
+                        </Calendar>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Name="ShiftHome" Grid.Row="1" Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Background="Azure" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="110"><LineBreak/>First Shift</TextBlock>
+                                <TextBlock Grid.Row="1" Grid.Column="0" Background="#FFBDE5E5" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70"><LineBreak/>Second Shift</TextBlock>
+                                <TextBlock Grid.Row="2" Grid.Column="0" Background="Azure" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70"><LineBreak/>Third Shift</TextBlock>
+                                <TextBlock Grid.Row="3" Grid.Column="0" Background="#FFBDE5E5" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70"><LineBreak/>Fourth Shift</TextBlock>
+                                <TextBlock Grid.Row="4" Grid.Column="0" Background="Azure" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70"><LineBreak/>Fifth Shift</TextBlock>
+                                <TextBlock Grid.Row="5" Grid.Column="0" Background="#FFBDE5E5" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70"><LineBreak/>Sixth Shift</TextBlock>
+                            </Grid>
+
+                            <StackPanel Name="ColumnLabelsHome" Grid.Row="0" Grid.Column="1">
+                                <TextBlock Background="#FF85BAED" TextAlignment="Center" TextBlock.FontSize="15" Height="70" Width="490"><LineBreak/>Schedule Details</TextBlock>
+                            </StackPanel>
+                            <Grid Name="HomeDisplay" Grid.Row="1" Grid.Column="1" ShowGridLines="False">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Row="0"  Background="Azure" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="550"><LineBreak/></TextBlock>
+                                <TextBlock Grid.Row="1" Background="#FFBDE5E5" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="550"><LineBreak/></TextBlock>
+                                <TextBlock Grid.Row="2" Background="Azure" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="550"><LineBreak/></TextBlock>
+                                <TextBlock Grid.Row="3" Background="#FFBDE5E5" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="550"><LineBreak/></TextBlock>
+                                <TextBlock Grid.Row="4" Background="Azure" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="550"><LineBreak/></TextBlock>
+                                <TextBlock Grid.Row="5" Background="#FFBDE5E5" TextAlignment="Center" FontSize="15" FontWeight="DemiBold" FontFamily="consolas" Height="70" Width="550"><LineBreak/></TextBlock>
+
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+
+                <TabItem Visibility="Visible" Name="addTab" Height="30" Width="100">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FFDD2A2A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/add_sign.png" Height="16"/>
+                            <TextBlock Text="Add" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="5*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel  Margin="20,10,5,0" Grid.Column="0">
+
+                            <TextBlock FontFamily="TimesNewRoman" FontSize="16" FontWeight="Bold" Margin="0 20 0 10"><Underline>Employee Details</Underline></TextBlock>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="480"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Canvas>
+                                    <TextBox x:Name="path" Height="160" Width="150" CaretBrush="White" Margin="0" IsEnabled="False"/>
+                                    <Button Height="30" Width="150" Margin="0 155 0 0" Content="Add photo" Name="photoAddBtn" Click="photoAddBtn_Click" />
+                                    <Image Name="empImage"  Height="160" Width="148" Margin="1 0 0 0"/>
+                                </Canvas>
+                                <Grid Grid.Column="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="240"/>
+                                        <ColumnDefinition Width="240"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Label Target="{Binding ElementName=employeeNameInput}" Margin="0 -10 0 5" Height="auto">
+                                        <AccessText Text="_First Name:  "/>
+                                    </Label>
+                                    <Label Target="{Binding ElementName=employeeLastNameInput}" Margin="0 -10 0 5" Height="auto" Grid.Column="1">
+                                        <AccessText Text="_Last Name:  "/>
+                                    </Label>
+                                    <TextBox x:Name ="employeeNameInput" PreviewTextInput="isAlphabet_PreviewTextInput" Width="180" Grid.Row="1"  HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+                                    <TextBox x:Name ="employeeLastNameInput" PreviewTextInput="isAlphabet_PreviewTextInput" Width="180" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+
+                                    <Label Target="{Binding ElementName=emoloyeeIdInput}" Margin="5 0 0 5"  Grid.Row="2">
+                                        <AccessText Text="_ID:  "/>
+                                    </Label>
+                                    <Label Target="{Binding ElementName=employeeGenderInput}" Margin="5 0 0 5" Height="auto" Grid.Column="1" Grid.Row="2">
+                                        <AccessText Text="_Gender:  "/>
+                                    </Label>
+                                    <TextBox x:Name ="employeeIdInput" Width="180" Grid.Row="3"  HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+                                    <ComboBox x:Name="employeeGenderInput" Width="180" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top">
+                                        <ComboBoxItem Name="maleInput" IsSelected="True">Male</ComboBoxItem>
+                                        <ComboBoxItem Name="femaleInput">Female</ComboBoxItem>
+                                    </ComboBox>
+
+                                    <Label Target="{Binding ElementName=employeePhoneInput}" Margin="5 0 0 5"  Grid.Row="4">
+                                        <AccessText Text="_Phone Number:  "/>
+                                    </Label>
+                                    <Label Target="{Binding ElementName=employeeEmailInput}" Margin="5 0 0 5"  Height="auto" Grid.Column="1" Grid.Row="4">
+                                        <AccessText Text="_Email:  "/>
+                                    </Label>
+                                    <StackPanel   Grid.Row="5" Margin="0,0,0,10" Orientation="Horizontal">
+                                        <TextBox x:Name="postalInput" IsEnabled="False" Height="26" Width="40" Margin="5,0,0,10" >+977</TextBox>
+                                        <TextBox x:Name ="employeePhoneInput" PreviewTextInput="isPhone_PreviewTextInput" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Width="140" Margin="0,0,0,10" VerticalAlignment="Top"/>
+                                    </StackPanel>
+                                    <TextBox x:Name ="employeeEmailInput" Width="180" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+
+                                </Grid>
+                            </Grid>
+                            <Separator Width="700" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+
+                            <TextBlock FontFamily="TimesNewRoman" FontSize="16" FontWeight="Bold" Margin="0 10 0 10"><Underline>Time Details</Underline></TextBlock>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="148"/>
+                                    <ColumnDefinition Width="266"/>
+                                    <ColumnDefinition Width="266"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Margin="0 0 0 5"><Bold>Day</Bold></TextBlock>
+                                <TextBlock Text="Sunday" Grid.Row="1" Margin="0 0 0 10"/>
+                                <TextBlock Text="Monday" Grid.Row="2" Margin="0 0 0 10"/>
+                                <TextBlock Text="Tuesday" Grid.Row="3" Margin="0 0 0 10"/>
+                                <TextBlock Text="Wednesday" Grid.Row="4" Margin="0 0 0 10"/>
+                                <TextBlock Text="Thursday" Grid.Row="5" Margin="0 0 0 10"/>
+                                <TextBlock Text="Friday" Grid.Row="6" Margin="0 0 0 10"/>
+
+                                <TextBlock Grid.Column="1"><Bold>Start Time</Bold></TextBlock>
+                                <TextBlock Grid.Column="2"><Bold>End Time</Bold></TextBlock>
+
+                                <TextBox Grid.Column="1" Grid.Row="1" Name="sundayStart" Text="0"  TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="2" Name="mondayStart" Text="0"  TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="3" Name="tuesdayStart" Text="0"  TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="4" Name="wednesdayStart" Text="0"  TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="5" Name="thursdayStart" Text="0"  TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="6" Name="fridayStart" Text="0"  TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+
+                                <TextBox Grid.Column="2" Grid.Row="1" Name="sundayEnd"  Text="24" TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="2" Name="mondayEnd" Text="24"  TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="3" Name="tuesdayEnd" Text="24"  TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="4" Name="wednesdayEnd" Text="24"  TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="5" Name="thursdayEnd" Text="24"  TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="6" Name="fridayEnd" Text="24" TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+
+                            </Grid>
+                            <Separator Width="700" HorizontalAlignment="Left" Margin="0 0 0 10"/>
+                        </StackPanel>
+                        <Button Grid.Row="1" Content="Submit" Name="addDetailBtn" Click="addDetBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" Background="#FF46DA82" Foreground="White"/>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Visibility="Visible" Name="editTab" Height="30" Width="100">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/edit_sign.png" Height="16"/>
+                            <TextBlock Text="Update" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="5*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel  Margin="20,10,5,0" Grid.Column="0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="150"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Select Id:"/>
+                                <ComboBox Grid.Column="1" Name="IdSelectUpdate"></ComboBox>
+                                <Button Grid.Column="2" Content="Find" Name="findBtnUpdate" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="5" Click="findBtnUpdate_Click" Margin="33.4,0,33.4,0.2"/>
+                            </Grid>
+
+                            <TextBlock FontFamily="TimesNewRoman" FontSize="16" FontWeight="Bold" Margin="0 20 0 10"><Underline>Employee Details</Underline></TextBlock>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="480"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Canvas>
+                                    <TextBox x:Name="path1" Height="160" Width="150" CaretBrush="White" Margin="0"/>
+                                    <Button Height="30" Width="150" Margin="0 155 0 0" Content="Update Photo" Name="load1" Click="load1_Click"  />
+                                    <Image Name="updatedImage"  Height="160" Width="148" Margin="1 0 0 0" />
+                                </Canvas>
+                                
+                                <Grid Grid.Column="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="240"/>
+                                        <ColumnDefinition Width="240"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Label Target="{Binding ElementName=employeeNameUpdate}" Margin="0 -10 0 5" Height="auto">
+                                        <AccessText Text="_First Name:  "/>
+                                    </Label>
+                                    <Label Target="{Binding ElementName=employeeLastNameUpdate}" Margin="0 -10 0 5" Height="auto" Grid.Column="1">
+                                        <AccessText Text="_Last Name:  "/>
+                                    </Label>
+                                    <TextBox x:Name ="employeeNameUpdate" PreviewTextInput="isAlphabet_PreviewTextInput" Width="180" Grid.Row="1"  HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+                                    <TextBox x:Name ="employeeLastNameUpdate" PreviewTextInput="isAlphabet_PreviewTextInput" Width="180" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+
+
+                                    <Label Target="{Binding ElementName=employeePhoneUpdate}" Margin="5 0 0 5"  Grid.Row="2">
+                                        <AccessText Text="_Phone Number:  "/>
+                                    </Label>
+                                    <Label Target="{Binding ElementName=employeeGenderUpdate}" Margin="5 0 0 5" Height="auto" Grid.Column="1" Grid.Row="2">
+                                        <AccessText Text="_Gender:  "/>
+                                    </Label>
+
+                                    <StackPanel   Grid.Row="3" Margin="5,0,0,10" Orientation="Horizontal">
+                                        <TextBox x:Name="postalUpdate" Height="26" Margin="5,0,0,10" >+977</TextBox>
+                                        <TextBox x:Name ="employeePhoneUpdate" PreviewTextInput="isPhone_PreviewTextInput" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Width="140" Margin="0,0,0,10" VerticalAlignment="Top"/>
+                                    </StackPanel>
+                                    <ComboBox x:Name="employeeGenderUpdate" Width="180" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top">
+                                        <ComboBoxItem Name="maleUpdate" IsSelected="True">Male</ComboBoxItem>
+                                        <ComboBoxItem Name="femaleUpdate">Female</ComboBoxItem>
+                                    </ComboBox>
+
+                                    <Label Target="{Binding ElementName=employeeEmailUpdate}" Margin="5 0 0 5" Height="auto" Grid.Column="0" Grid.Row="4">
+                                        <AccessText Text="_Email:  "/>
+                                    </Label>
+                                    <TextBox x:Name ="employeeEmailUpdate" Width="180" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="5,0,0,10" VerticalAlignment="Top"/>
+
+                                </Grid>
+                            </Grid>
+                            <Separator Width="700" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+
+                            <TextBlock FontFamily="TimesNewRoman" FontSize="16" FontWeight="Bold" Margin="0 10 0 10"><Underline>Time Details</Underline></TextBlock>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="148"/>
+                                    <ColumnDefinition Width="266"/>
+                                    <ColumnDefinition Width="266"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Margin="0 0 0 5"><Bold>Day</Bold></TextBlock>
+                                <TextBlock Text="Sunday" Grid.Row="1" Margin="0 0 0 10"/>
+                                <TextBlock Text="Monday" Grid.Row="2" Margin="0 0 0 10"/>
+                                <TextBlock Text="tuesday" Grid.Row="3" Margin="0 0 0 10"/>
+                                <TextBlock Text="Wednesday" Grid.Row="4" Margin="0 0 0 10"/>
+                                <TextBlock Text="Thursday" Grid.Row="5" Margin="0 0 0 10"/>
+                                <TextBlock Text="Friday" Grid.Row="6" Margin="0 0 0 10"/>
+
+                                <TextBlock Grid.Column="1"><Bold>Start Time</Bold></TextBlock>
+                                <TextBlock Grid.Column="2"><Bold>End Time</Bold></TextBlock>
+
+                                <TextBox Grid.Column="1" Grid.Row="1" Name="sundayStartUpdate" TextAlignment="Center"  PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="2" Name="mondayStartUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="3" Name="tuesdayStartUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="4" Name="wednesdayStartUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="5" Name="thursdayStartUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="1" Grid.Row="6" Name="fridayStartUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+
+                                <TextBox Grid.Column="2" Grid.Row="1" Name="sundayEndUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="2" Name="mondayEndUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="3" Name="tuesdayEndUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="4" Name="wednesdayEndUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="5" Name="thursdayEndUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+                                <TextBox Grid.Column="2" Grid.Row="6" Name="fridayEndUpdate" TextAlignment="Center" PreviewTextInput ="lessthan24Input_PreviewTextInput" ></TextBox>
+
+                            </Grid>
+                            <Separator Width="700" HorizontalAlignment="Left" Margin="0 0 0 10"/>
+
+                        </StackPanel>
+
+                        <Button Grid.Row="1" Content="Update" Name="addBtn" Click="updateDetBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" Background="#FFE4AE66"/>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Visibility="Visible" Name="deleteTab" Height="30" Width="100">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/delete_sign.png" Height="16"/>
+                            <TextBlock Text="Delete" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="5*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Margin="20 10 5 0" Orientation="Vertical">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="150"/>
+                                    <ColumnDefinition Width="150"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Select Id:"/>
+                                <ComboBox Grid.Column="1" Name="IdSelectDelete" SelectedIndex="0"></ComboBox>
+                                <Button Grid.Column="2" Content="Find" Name="findBtnDelete" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="5" Click="findBtnDelete_Click" Margin="33.4,0,33.4,0.2"/>
+                            </Grid>
+                            <Grid Margin="20 50 5 0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="240"/>
+                                    <ColumnDefinition Width="400"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox x:Name="delPath"  Height="100" Width="100" CaretBrush="White" />
+                                <Image x:Name="delTabImage" Height="160" VerticalAlignment="Top" Width="150"/>
+
+
+                                <Grid Grid.Column="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="90"/>
+                                        <ColumnDefinition Width="240"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="30"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock  Margin="0 0 0 5" Height="20" Text="Name: " />
+                                    <TextBlock  Margin="0 0 0 5" Grid.Row="1" Height="20" Text="Gender: " />
+                                    <TextBlock  Margin="0 0 0 5" Grid.Row="2" Height="20" Text="Phone: " />
+                                    <TextBlock  Margin="0 0 0 5" Grid.Row="3" Height="20" Text="Email: " />
+
+                                    <TextBox  Name="nameDelete" Margin="0 0 0 5" Grid.Column="1" Height="20"  />
+                                    <TextBox  Name="genderDelete"  Margin="0 0 0 5" Grid.Column="1" Grid.Row="1" Height="20"  />
+                                    <TextBox  Name="phoneDelete" Margin="0 0 0 5" Grid.Column="1" Grid.Row="2" Height="20"  />
+                                    <TextBox  Name="emailDelete" Margin="0 0 0 5" Grid.Column="1" Grid.Row="3" Height="20" />
+
+                                </Grid>
+                            </Grid>
+                        </StackPanel>
+                        <Button Grid.Row="1" Content="Delete" Name="deleteDeBtn" Click="deleteDetBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" Background="#FFEE4B37"/>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Height="30" Width="100">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/details.png" Height="16"/>
+                            <TextBlock Text="Details" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="4*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Margin="2">
+                            <Label Content="Employee details:" FontFamily="calibri" FontSize="18" FontWeight="Bold"/>
+                            <DataGrid IsReadOnly="True" Name="detGrid" SelectionChanged="detGrid_SelectionChanged" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Width="150" Header="First name" Binding="{Binding FirstName}"/>
+                                    <DataGridTextColumn Width="150" Header="Last name" Binding="{Binding LastName}"/>
+                                    <DataGridTextColumn Width="50" Header="Id" Binding="{Binding Id}"/>
+                                    <DataGridTextColumn Width="80" Header="Gender" Binding="{Binding Gender}"/>
+                                    <DataGridTextColumn Width="100" Header="Phone number" Binding="{Binding PhoneNo}"/>
+                                    <DataGridTextColumn Width="350" Header="Email" Binding="{Binding Email}"/>
+                                </DataGrid.Columns>
+
+                                <DataGrid.RowDetailsTemplate>
+                                    <DataTemplate>
+                                        <DockPanel Background="GhostWhite">
+                                            <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="60" Margin="10"/>
+                                            <Grid Margin="0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="auto"/>
+                                                    <ColumnDefinition Width="200"/>
+                                                    
+                                                    <ColumnDefinition Width="50"/>
+
+                                                    <ColumnDefinition Width="120"/>
+                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="120"/>
+                                                    <ColumnDefinition Width="100"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="auto"/>
+                                                    <RowDefinition Height="auto"/>
+                                                    <RowDefinition Height="auto"/>
+                                                    <RowDefinition Height="auto"/>
+                                                    <RowDefinition Height="auto"/>
+                                                    <RowDefinition Height="auto"/>
+                                                </Grid.RowDefinitions>
+
+                                                <TextBlock Text="ID: " FontWeight="Bold"/>
+                                                <TextBlock Text="{Binding Id}" Grid.Column="1"/>
+
+                                                <TextBlock Text="First name: " FontWeight="Bold" Grid.Row="1"/>
+                                                <TextBlock Text="{Binding FirstName}" Grid.Row="1" Grid.Column="1"/>
+
+                                                <TextBlock Text="Last name: " FontWeight="Bold" Grid.Row="2"/>
+                                                <TextBlock Text="{Binding LastName}" Grid.Row="2" Grid.Column="1"/>
+
+                                                <TextBlock Text="Gender: " FontWeight="Bold" Grid.Row="3"/>
+                                                <TextBlock Text="{Binding Gender}" Grid.Row="3" Grid.Column="1"/>
+
+                                                <TextBlock Text="Phone number: " FontWeight="Bold" Grid.Row="4"/>
+                                                <TextBlock Text="{Binding PhoneNo}" Grid.Row="4" Grid.Column="1"/>
+
+                                                <TextBlock Text="Email: " FontWeight="Bold" Grid.Row="5"/>
+                                                <TextBlock Text="{Binding Email}" Grid.Row="5" Grid.Column="1"/>
+
+                                                <TextBlock Text="Sunday start:" FontWeight="Bold" Grid.Row="0" Grid.Column="3"/>
+                                                <TextBlock Text="{Binding Sunday_start}" Grid.Row="0" Grid.Column="4"/>
+
+                                                <TextBlock Text="Monday start:" FontWeight="Bold" Grid.Row="1" Grid.Column="3"/>
+                                                <TextBlock Text="{Binding Monday_start}" Grid.Row="1" Grid.Column="4"/>
+
+                                                <TextBlock Text="Tuesday start:" FontWeight="Bold" Grid.Row="2" Grid.Column="3"/>
+                                                <TextBlock Text="{Binding Tuesday_start}" Grid.Row="2" Grid.Column="4"/>
+
+                                                <TextBlock Text="Wednesday start:" FontWeight="Bold" Grid.Row="3" Grid.Column="3"/>
+                                                <TextBlock Text="{Binding Wednesday_start}" Grid.Row="3" Grid.Column="4"/>
+
+                                                <TextBlock Text="Thursday start:" FontWeight="Bold" Grid.Row="4" Grid.Column="3"/>
+                                                <TextBlock Text="{Binding Thursday_start}" Grid.Row="4" Grid.Column="4"/>
+
+                                                <TextBlock Text="Friday start:" FontWeight="Bold" Grid.Row="5" Grid.Column="3"/>
+                                                <TextBlock Text="{Binding Friday_start}" Grid.Row="5" Grid.Column="4"/>
+
+                                                <TextBlock Text="Sunday end:" FontWeight="Bold" Grid.Row="0" Grid.Column="5"/>
+                                                <TextBlock Text="{Binding Sunday_end}" Grid.Row="0" Grid.Column="6"/>
+
+                                                <TextBlock Text="Monday end:" FontWeight="Bold" Grid.Row="1" Grid.Column="5"/>
+                                                <TextBlock Text="{Binding Monday_end}" Grid.Row="1" Grid.Column="6"/>
+
+                                                <TextBlock Text="Tuesday end:" FontWeight="Bold" Grid.Row="2" Grid.Column="5"/>
+                                                <TextBlock Text="{Binding Tuesday_end}" Grid.Row="2" Grid.Column="6"/>
+
+                                                <TextBlock Text="Wednesday end:" FontWeight="Bold" Grid.Row="3" Grid.Column="5"/>
+                                                <TextBlock Text="{Binding Wednesday_end}" Grid.Row="3" Grid.Column="6"/>
+
+                                                <TextBlock Text="Thursday end:" FontWeight="Bold" Grid.Row="4" Grid.Column="5"/>
+                                                <TextBlock Text="{Binding Thursday_end}" Grid.Row="4" Grid.Column="6"/>
+
+                                                <TextBlock Text="Friday end:" FontWeight="Bold" Grid.Row="5" Grid.Column="5"/>
+                                                <TextBlock Text="{Binding Friday_end}" Grid.Row="5" Grid.Column="6"/>
+
+
+                                            </Grid>
+                                        </DockPanel>
+
+                                    </DataTemplate>
+                                </DataGrid.RowDetailsTemplate>
+                            </DataGrid>
+                        </StackPanel>
+                        <Button x:Name="dispBtn" Content="Display" Grid.Row="1" Click="dispBtn_Click" Padding="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Height="30" Width="100">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/schedule.png" Height="16"/>
+                            <TextBlock Text="Schedule" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <StackPanel>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="5*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Name="RowLabels" Grid.Row="1" Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15" Height="70" Width="110"><LineBreak/>Sunday</TextBlock>
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15" Height="70"><LineBreak/>Monday</TextBlock>
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15" Height="70"><LineBreak/>Tuesday</TextBlock>
+                                    <TextBlock Grid.Row="3" Grid.Column="0" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15" Height="70"><LineBreak/>Wednesday</TextBlock>
+                                    <TextBlock Grid.Row="4" Grid.Column="0" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15" Height="70"><LineBreak/>thursday</TextBlock>
+                                    <TextBlock Grid.Row="5" Grid.Column="0" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15" Height="70"><LineBreak/>Friday</TextBlock>
+                                </Grid>
+
+                                <Grid Name="ShiftLabels" Grid.Row="0" Grid.Column="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15" Height="70" Width="120"><LineBreak/>First Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="1" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15" Width="120"><LineBreak/>Second Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="2" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15"  Width="120"><LineBreak/>Third Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="3" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15"  Width="120"><LineBreak/>Fourth Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="4" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15"  Width="120"><LineBreak/>Fifth Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="5" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15" Width="120"><LineBreak/>Sixth Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="6" Background="Azure" TextAlignment="Center" TextBlock.FontSize="15"  Width="120"><LineBreak/>Seventh Shift</TextBlock>
+                                    <TextBlock Grid.Row="0" Grid.Column="7" Background="#FFBDE5E5" TextAlignment="Center" TextBlock.FontSize="15"  Width="120"><LineBreak/>Eighth Shift</TextBlock>
+
+                                </Grid>
+
+                                <Grid Name="Container" Grid.Row="1" Grid.Column="1" ShowGridLines="False">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid Margin="0 40 0 0" Name="suggestionStack">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" Margin="0 50 0 0">
+                            <Button    Name="fetchBtn" Foreground="Black" Background="#FF46DAA2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,0,0,0" Width="100" Height="30" Click="fetchBtn_Click">Fetch</Button>
+                            <Button  Name="generateBtn" Click="generateBtn_Click" Foreground="Black" Background="#FFFF4B4B" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="300,0,20,0" Width="100" Height="30">Generate</Button>
+                        </StackPanel>
+                    </StackPanel>
+                </TabItem>
+
+                <TabItem Height="30" Width="100">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/constraints.png" Height="16"/>
+                            <TextBlock Text="Constraints" Foreground="Blue"/>
+                        </StackPanel>
+                    </TabItem.Header>
+
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="5*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Margin="20,5,5,5">
+                            <Label FontWeight="Bold">Select the constraints to be used in automatic schedule generation:</Label>
+                            <CheckBox Name="firstConstraint" Grid.Row="0" Background="White" IsChecked="True">
+                                Work at least 2 hours per shift
+                            </CheckBox>
+
+                            <CheckBox Name="secondConstraint" Grid.Row="0" Background="White" IsChecked="True">
+                                Only one shift per day
+                            </CheckBox>
+
+                            <CheckBox Name="thirdConstraint" Grid.Row="0" Background="White" IsChecked="True">
+                                Account for employee availability
+                            </CheckBox>
+
+                            <CheckBox Name="fourthConstraint" Grid.Row="0" Background="White" IsChecked="True">
+                                Account for maximum work hour per day
+                            </CheckBox>
+
+                            <TextBlock FontFamily="TimesNewRoman" FontSize="16" FontWeight="Bold" Margin="0 20 0 10"><Underline>Working Hours</Underline></TextBlock>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="210"/>
+                                    <ColumnDefinition Width="140"/>
+                                    <ColumnDefinition Width="210"/>
+                                    <ColumnDefinition Width="110"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Target="{Binding ElementName=startTimeInput}"  >
+                                    <AccessText Text="_Start Time:  "/>
+                                </Label>
+                                <TextBox x:Name ="startTimeInput" PreviewTextInput="lessthan24Input_PreviewTextInput" Text="10" Width="90" Grid.Column="1" HorizontalAlignment="Left" TextAlignment="Center" Height="26" Margin="0.4,0,0,-0.8" VerticalAlignment="Top"/>
+                                <Label Target="{Binding ElementName=endTimeInput}" Grid.Column="2">
+                                    <AccessText Text="_End Time:  "/>
+                                </Label>
+                                <TextBox Name ="endTimeInput" PreviewTextInput ="lessthan24Input_PreviewTextInput"  Text ="18" Width="90" Grid.Column="3" HorizontalAlignment="Left" TextAlignment="Center" TextChanged="endTimeInput_TextChanged"></TextBox>
+                            </Grid>
+                            <Separator Width="700" HorizontalAlignment="Left" Margin="0 0 0 10"/>
+                            <TextBlock FontFamily="TimesNewRoman" FontSize="16" FontWeight="Bold" Margin="0 0 0 10"><Underline>Costumizable Constraints</Underline></TextBlock>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="210"/>
+                                    <ColumnDefinition Width="140"/>
+                                    <ColumnDefinition Width="210"/>
+                                    <ColumnDefinition Width="110"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Target="{Binding ElementName=minContinuousInput}"  >
+                                    <AccessText Text="_Minimum Continuous Work Time:  "/>
+                                </Label>
+                                <TextBox Name ="minContinuousInput" PreviewTextInput="lessthan24Input_PreviewTextInput" Text="2" Width="90" Grid.Column="1" HorizontalAlignment="Left" TextAlignment="Center" TextChanged="minContinuousInput_TextChanged" Margin="0.4,0,0,-0.8" Height="26" VerticalAlignment="Top"/>
+
+                                <Label Target="{Binding ElementName=maxDayInput}" Grid.Column="2">
+                                    <AccessText Text="_Max Daily Hours:  "/>
+                                </Label>
+                                <TextBox Name ="maxDayInput" PreviewTextInput ="lessthan24Input_PreviewTextInput"  Text="4" TextAlignment="Center" Width="90" Grid.Column="3" HorizontalAlignment="Left" TextChanged="maxDayInput_TextChanged"  />
+                            </Grid>
+                            <Grid Margin="0 0 0 10" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="210"/>
+                                    <ColumnDefinition Width="140"/>
+                                    <ColumnDefinition Width="210"/>
+                                    <ColumnDefinition Width="110"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Target="{Binding ElementName=minWeekInput}"  >
+                                    <AccessText Text="_Minimum Weekly Work Hours:  "/>
+                                </Label>
+                                <TextBox Name ="minWeekInput" PreviewTextInput ="minWeekInput_PreviewTextInput" Text="16" TextAlignment="Center" Width="90" Grid.Column="1" HorizontalAlignment="Left" Margin="0.4,0,0,-0.8" TextChanged="minWeekInput_TextChanged"/>
+
+                                <Label Target="{Binding ElementName=maxWeekInput}" Grid.Column="2">
+                                    <AccessText Text="_Max Weekly hours:  "/>
+                                </Label>
+                                <TextBox Name ="maxWeekInput" PreviewTextInput ="maxWeekInput_PreviewTextInput" Text="24" TextAlignment="Center" Width="90" Grid.Column="3" HorizontalAlignment="Left" TextChanged="maxWeekInput_TextChanged"/>
+                            </Grid>
+                            <Separator Width="700" HorizontalAlignment="Left"/>
+                        </StackPanel>
+
+                        <Button Grid.Row="1" Name="constraintBtn" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FF46DA82" Foreground="White" Click="constraintBtn_Click">Save</Button>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </ScrollViewer>
+    </Grid>
+</Window>

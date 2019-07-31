@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-a",
+      "appliesTo": "WpfApp1/Images/a.jpg",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-edit_sign",
+      "appliesTo": "WpfApp1/Images/edit_sign.png",
+      "type": "launch"
+    }
+  ]
+}
